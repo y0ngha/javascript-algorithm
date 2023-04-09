@@ -1,0 +1,21 @@
+{
+  "name": "javascript-algorithm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": "17.5.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "dependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/plugin-transform-runtime": "^7.18.9",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/runtime": "^7.18.9",
+    "jest": "^28.1.3"
+  }
+}
